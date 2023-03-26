@@ -4,7 +4,10 @@
 
 ### Purpose
 
-The purpose of this project is to use `R` to do some statistical analysis.
+The purpose of this project is to use `R` to do some statistical analysis on sample data from MechaCars. The focus will be on: 
+
+- MPG analysis. This will be to determine if there are any other variables which provide a non-random amount of variance to MPG.
+- Suspension coil manufacturing requirements analysis. This will be to determine if the manufacturing process
 
 ## Results
 
@@ -72,3 +75,35 @@ The p-value of **0.6072** is much higher than the typical threshold of 0.05 for 
 ![Lot3SampleTTest](img/Lot3SampleTTest.png)
 
 The p-value of **0.04168** is lower than the typical threshold of 0.05 for statistical significance. Therefore, we can conclude that sample mean is statistically different from the population mean at the typical level of significance.
+
+## Additional Study
+
+### Study Design: MechaCar vs Competition
+
+An additional statistical study that would be of interest to **money-saving** consumers would be to test the fuel efficiency and cost of MechaCar vehicles against those of other manufacturers.
+
+#### Metrics
+
+We will be comparing the average city and highway fuel efficiency of MechaCar vehicles to the fuel efficiency of vehicles from other manufacturers in the same class, as well as the average cost of MechaCar vehicles to the cost of vehicles from other manufacturers in the same class.
+
+#### Hypotheses
+
+- **Null hypothesis**: The average city and highway fuel efficiency and cost of MechaCar vehicles is not significantly different from that of vehicles from other manufacturers in the same class.
+
+- **Alternative hypothesis**: The average city and highway fuel efficiency and cost of MechaCar vehicles is significantly different from that of vehicles from other manufacturers in the same class.
+
+
+#### Statistical test
+
+To test the hypotheses, we will conduct two separate two-sample t-tests:
+
+- Fuel efficiency
+- Cost 
+
+We will use a two-sample t-test because we are comparing the means of two independent samples (MechaCar vehicles vs vehicles from other manufacturers) and we assume that the data follows a normal distribution.
+
+#### Data Required for Statistical Study
+
+We will need data on the city and highway fuel efficiency and cost of MechaCar vehicles, as well as comparable data for vehicles from other manufacturers in the same class. The data should be collected from a random sample of vehicles in each class, and the sample sizes should be large enough to ensure that the assumptions of the t-test are met. 
+
+We should also collect additional data on the characteristics of the vehicles, such as horsepower, weight, and safety ratings, in case we need to consider other variables that confound the results.
