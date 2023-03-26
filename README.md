@@ -95,10 +95,11 @@ We will be comparing the average city and highway fuel efficiency of MechaCar ve
 
 #### Statistical test
 
-To test the hypotheses, we will conduct two separate two-sample t-tests:
+To test the hypotheses, we will conduct three separate two-sample t-tests:
 
-- Fuel efficiency
-- Cost 
+- Highway fuel efficiency
+- City fuel efficiency
+- Cost
 
 We will use a two-sample t-test because we are comparing the means of two independent samples (MechaCar vehicles vs vehicles from other manufacturers) and we assume that the data follows a normal distribution.
 
